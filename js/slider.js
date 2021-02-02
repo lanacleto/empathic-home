@@ -23,13 +23,11 @@ function putLabel(el, numberImg, isLeft=false) {
     textInInfo.innerHTML = parentEl.querySelector('.heading-6').innerText
   } catch (e) {
     if(infos[numberImg] == undefined || infos[numberImg - 2] == undefined) return
+    textInInfo.innerHTML = infos[numberImg]
     if(isLeft) {
-      console.log(numberImg - 2)
       textInInfo.innerHTML = infos[numberImg - 2]
       return
     }
-    textInInfo.innerHTML = infos[numberImg]
-    console.log(infos[numberImg])
   }
 }
 
@@ -51,11 +49,19 @@ fixedDiv.addEventListener('click', (e) => {
   if(el.getAttribute('src') == 'images/right-white.svg'){
     let currentSrc = img.getAttribute('src')
     const numberImg = currentSrc.slice(7, 8)
+
     if(numberImg <= 7) {
       img.setAttribute('src', `images/${parseInt(numberImg) + 1}.jpg`)
     }
+
+    if(numberImg == 1) {
+      textInInfo.innerHTML = infos[1]
+      return
+    }
+
     putLabel(null, numberImg)
   }
+
   if(el.getAttribute('src') == 'images/left-white.svg'){
     let currentSrc = img.getAttribute('src')
     const numberImg = currentSrc.slice(7, 8)
@@ -63,7 +69,10 @@ fixedDiv.addEventListener('click', (e) => {
     if(numberImg >= 2) {
       img.setAttribute('src', `images/${parseInt(numberImg) - 1}.jpg`)
     }
+    if(numberImg == 8) {
+      textInInfo.innerHTML = infos[6]
+      return
+    }
     putLabel(null, numberImg, true)
   }
-  
 })
