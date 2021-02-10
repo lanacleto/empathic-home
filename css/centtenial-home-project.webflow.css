@@ -431,7 +431,7 @@
 .item-list.botton-item-list {
   padding-left: 43px;
   background-image: url('../images/clock.svg');
-  background-position: 0px 15px;
+  background-position: 0px 8px;
   background-size: 25px;
   font-size: 1.2em;
 }
@@ -1099,8 +1099,10 @@
 }
 
 .div-block-18 {
-  width: 280px;
+  width: 400px;
   height: 56px;
+  margin-right: 20px;
+  margin-left: 20px;
   border-radius: 8px;
   background-color: #064a71;
   color: #064a71;
@@ -1111,7 +1113,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 20%;
+  width: 15%;
   height: 100%;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
@@ -1136,7 +1138,7 @@
 }
 
 .image-18 {
-  width: 50%;
+  width: 30%;
 }
 
 .image-19 {
@@ -1150,7 +1152,7 @@
   display: flex;
   width: auto;
   height: 50px;
-  margin-top: 13px;
+  margin-top: -12px;
 }
 
 .div-block-21 {
@@ -1230,6 +1232,31 @@
   .list-2 {
     margin-left: 155px;
   }
+
+  .div-block-18 {
+    width: 400px;
+  }
+
+  .div-block-19 {
+    width: 15%;
+  }
+
+  .text-block-3 {
+    margin-left: 65px;
+  }
+
+  .image-18 {
+    width: 30%;
+    font-size: 0em;
+  }
+
+  .image-19 {
+    width: 25px;
+  }
+
+  .div-block-20 {
+    margin-top: -8px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -1243,6 +1270,7 @@
 
   .item-list.botton-item-list {
     padding-left: 42px;
+    background-position: 0px 10px;
   }
 
   .item-list.botton-item-list-2 {
@@ -1258,6 +1286,7 @@
   }
 
   .columns {
+    margin-top: 30px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1300,6 +1329,10 @@
 
   .video {
     width: 84%;
+  }
+
+  .section-7 {
+    padding-bottom: 30px;
   }
 
   .image-7 {
@@ -1483,8 +1516,16 @@
     padding-left: 0px;
   }
 
+  .column-2.second-contact {
+    margin-top: 4px;
+  }
+
   .list-2 {
     padding-left: 0px;
+  }
+
+  .image-4 {
+    width: 50%;
   }
 
   .main-top-text {
@@ -1532,6 +1573,8 @@
 
   .html-embed-2 {
     width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .image-16.right-arrow {
@@ -1566,9 +1609,18 @@
     text-align: center;
   }
 
+  .bold-text-2 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .paragraph {
     width: 90%;
     font-size: 1.2em;
+  }
+
+  .section-2 {
+    margin-bottom: 44px;
   }
 
   .button {
@@ -1594,6 +1646,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    margin-top: -23px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -1601,23 +1654,34 @@
   }
 
   .item-list {
+    margin-top: 22px;
+    padding-left: 24px;
+    background-position: 0px 10px;
     font-size: 1.2em;
+    line-height: 30px;
   }
 
   .item-list.botton-item-list {
     padding-left: 38px;
+    background-position: 0px 10px;
+    background-size: 15px;
   }
 
   .item-list.botton-item-list-2 {
     padding-left: 38px;
+    background-position: 0px 8px;
+    background-size: 15px;
   }
 
   .item-list.botton-item-list-3 {
     padding-left: 38px;
+    background-position: 0px 8px;
+    background-size: 15px;
   }
 
   .item-list.botton-item-list-4 {
     padding-left: 38px;
+    background-position: 0px 3px;
   }
 
   .columns {
@@ -1629,12 +1693,29 @@
     width: 233.71875px;
   }
 
+  .heading-4 {
+    margin-top: 2px;
+  }
+
   .link {
+    margin-top: -10px;
     font-size: 1.2em;
+  }
+
+  .column {
+    z-index: 10;
+  }
+
+  .column-2.second-contact {
+    margin-top: 30px;
   }
 
   .link-2 {
     font-size: 1.3em;
+  }
+
+  .div-block-7 {
+    margin-top: 26px;
   }
 
   .paragraph-4 {
@@ -1643,6 +1724,10 @@
     font-size: 1em;
     line-height: 20px;
     text-align: center;
+  }
+
+  .image-4 {
+    width: 70%;
   }
 
   .main-top-text {
@@ -1686,6 +1771,7 @@
 
   .italic-text-2 {
     font-size: 20px;
+    line-height: 0px;
   }
 
   .column-5 {
@@ -1712,6 +1798,8 @@
 
   .html-embed-2 {
     height: 480px;
+    margin-top: -87px;
+    margin-bottom: -87px;
   }
 
   .image-16.right-arrow {
@@ -1720,6 +1808,18 @@
 
   .image-17.left-arrow {
     left: 0px;
+  }
+
+  .div-block-18 {
+    width: 90%;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .text-block-3 {
+    margin-left: 40px;
+    padding-left: 0px;
+    font-size: 1em;
   }
 
   .div-block-22 {

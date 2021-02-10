@@ -14,7 +14,7 @@ const infos = [
   "Great Floorplan",
   "Master Bathroom",
   "Bathroom",
-  "Guest Bedroom #1"
+  "Master Bathroom"
 ]
 
 function putLabel(el, numberImg, isLeft=false) {
