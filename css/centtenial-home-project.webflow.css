@@ -1510,6 +1510,8 @@
 
   .item-list {
     padding-left: 21px;
+    background-position: 0px 17px;
+    background-size: 8px;
   }
 
   .list {
@@ -1656,9 +1658,9 @@
   .item-list {
     margin-top: 22px;
     padding-left: 24px;
-    background-position: 0px 10px;
+    background-position: 0px 8px;
     font-size: 1.2em;
-    line-height: 30px;
+    line-height: 20px;
   }
 
   .item-list.botton-item-list {
@@ -1691,6 +1693,7 @@
 
   .list {
     width: 233.71875px;
+    line-height: 15em;
   }
 
   .heading-4 {
@@ -1752,7 +1755,7 @@
 
   .column-3 {
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 20px;
   }
 
   .column-4 {
@@ -1761,7 +1764,7 @@
     display: -ms-flexbox;
     display: flex;
     padding-right: 0px;
-    padding-left: 0px;
+    padding-left: 20px;
     text-align: left;
   }
 
